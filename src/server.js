@@ -6,11 +6,7 @@ const routes = require("./routes");
 const server = express();
 
 mongoose.connect(
-<<<<<<< HEAD
   "mongodb+srv://omnistack:kill6133@cluster0-utkyw.mongodb.net/omnistack8?retryWrites=true&w=majority",
-=======
-  "mongodb+srv://omnistack:kill6133@cluster0-utkyw.mongodb.net/test?retryWrites=true&w=majority",
->>>>>>> master
   { useNewUrlParser: true }
 );
 
